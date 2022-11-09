@@ -1,7 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
 import { InstUISettingsProvider, View } from "@instructure/ui";
-import clone from "lodash/clone";
+import { clone } from "lodash";
 
 function App() {
   const c = clone([1, 2, 3]);
